@@ -1,0 +1,48 @@
+.food-carousel{
+    position: relative;
+    overflow:hidden;
+    /* margin-top: 5rem; */
+    background-color: white;
+}
+.product-container{
+    margin: 0 2rem;
+    display: flex;
+    gap: 2.1rem;
+    overflow: scroll; 
+    scroll-behavior: smooth;
+    touch-action: pinch-zoom pan-x pan-y;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: rgba(255, 255, 255, 0);
+  }
+ .pre-food-btn,.next-food-btn{
+    position: absolute;
+    top: 10rem;
+    font-size: 20px;
+    font-weight: 100;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px #7e7e7e;
+}
+.product-container a{
+    text-decoration: none;
+    color: black;
+}
+.pre-btn:hover, .next-btn:hover{
+    background-color: rgb(236, 236, 236);
+}
+.pre-food-btn{
+    left: 1rem;
+    cursor: pointer;
+}
+.next-food-btn{
+    right: 1rem;
+    cursor: pointer;
+}

@@ -1,0 +1,108 @@
+const grocery_datas = [
+    {
+      index:0,
+      name: 'Grocery',
+      tag: "North Indian, Fast Food",
+      location: "Malaviya Nagar, Jaipur",
+      img: require('./components/images/1.jpg'),
+      star: 4.2,
+      time: "9:00p.m.",
+      dis: "13km",
+      date: "12/04/23",
+      money: 150,
+      money_cut: 300
+    },
+    {
+        index:1,
+        name: 'Grocery',
+        tag: "North Indian, Fast Food",
+        location: "Malaviya Nagar, Jaipur",
+        img: require('./components/images/1.jpg'),
+        star: 4.2,
+        time: "9:00p.m.",
+        dis: "13km",
+        date: "12/04/23",
+        money: 150,
+        money_cut: 300
+      },
+      {
+        index:2,
+        name: 'Grocery',
+        tag: "North Indian, Fast Food",
+        location: "Malaviya Nagar, Jaipur",
+        img: require('./components/images/1.jpg'),
+        star: 4.2,
+        time: "9:00p.m.",
+        dis: "13km",
+        date: "12/04/23",
+        money: 150,
+        money_cut: 300
+      },
+      {
+        index:3,
+        name: 'Grocery',
+        location: "Malaviya Nagar, Jaipur",
+        tag: "North Indian, Fast Food",
+        img: require('./components/images/1.jpg'),
+        star: 4.2,
+        time: "9:00p.m.",
+        dis: "13km",
+        date: "12/04/23",
+        money: 150,
+        money_cut: 300
+      },
+      {
+        index:4,
+        name: 'Grocery',
+        tag: "North Indian, Fast Food",
+        location: "Malaviya Nagar, Jaipur",
+        img: require('./components/images/1.jpg'),
+        star: 4.2,
+        time: "9:00p.m.",
+        dis: "13km",
+        date: "12/04/23",
+        money: 150,
+        money_cut: 300
+      },
+      {
+        index:5,
+        name: 'Grocery',
+        tag: "North Indian, Fast Food",
+        location: "Malaviya Nagar, Jaipur",
+        img: require('./components/images/1.jpg'),
+        star: 4.2,
+        time: "9:00p.m.",
+        dis: "13km",
+        date: "12/04/23",
+        money: 150,
+        money_cut: 300
+      },
+      // {
+      //   index:6,
+      //   name: 'Grocery',
+      //   tag: "North Indian, Fast Food",
+      //   location: "Malaviya Nagar, Jaipur",
+      //   img: require('./components/images/1.jpg'),
+      //   star: 4.2,
+      //   time: "9:00p.m.",
+      //   dis: "13km",
+      //   date: "12/04/23",
+      //   money: 150,
+      //   money_cut: 300
+      // },
+      // {
+      //   index:7,
+      //   name: 'Grocery',
+      //   tag: "North Indian, Fast Food",
+      //   location: "Malaviya Nagar, Jaipur",
+      //   img: require('./components/images/1.jpg'),
+      //   star: 4.2,
+      //   time: "9:00p.m.",
+      //   dis: "13km",
+      //   date: "12/04/23",
+      //   money: 150,
+      //   money_cut: 300
+      // },
+    
+  ];
+  export default grocery_datas;

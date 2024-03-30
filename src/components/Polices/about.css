@@ -1,0 +1,137 @@
+.aboutus{
+    text-align: center;
+    /* padding: 0 1rem; */
+}
+.about{
+    
+    padding: 2rem 1rem;
+    background-color: rgb(255, 255, 255);
+}
+.aboutus h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.aboutus hr{
+    background-color: #4DA943;
+    width: 5%;
+    height: 0.3rem;
+    border-radius: 1rem;
+    position: absolute;
+    left: 47.5%;
+    margin-top: 1rem;
+} 
+.aboutus .body{
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    align-items: center;
+    position: relative;
+}
+
+.aboutus .photo{
+    max-width: 25%;
+    min-width: 200px;
+    margin: 6%;
+    border-radius: 100%;
+}
+.aboutus .text {
+    width: 70%;
+    font-size: 1.3rem;
+    padding: 35px;
+    padding-left: 50px;
+    font-weight: 400;
+}
+.problem{
+    padding: 3rem 1rem;
+    background-color: rgb(244, 244, 244);
+}
+
+.problem .box{
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    margin-top:3rem ;
+    align-items: center;
+}
+.problem .ind{
+    width: 50%;
+    height: 50% ;
+}
+.problem .box1{
+    width: 70%;
+    padding-left: 7%;
+}
+.problem .box1 span{
+    font-size: 2.2rem;
+    font-weight: 100;
+    color: black;
+}
+.problem .box1 b{
+    color: #4DA943;
+}
+.problem .main{
+    margin-bottom: 40px;
+    /* padding-left: 40px; */
+}
+.problem .para
+{
+    color: rgb(86, 86, 86);
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.solution{
+    padding: 5rem 1rem;
+    background-color: rgb(255, 255, 255);
+    height: 70vh;
+}
+
+@media (max-width:800px){
+    .aboutus .body{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 65vh;
+        align-items: center;
+    }
+    .aboutus .photo{
+        max-width: 25%;
+        min-width: 180px;
+        margin-top: 2rem;
+        border-radius: 100%;
+    }
+    .aboutus .text {
+        width: 70%;
+        font-size: 1rem;
+        padding:0;
+        font-weight: 400;
+    }
+    .aboutus h1{
+        font-size: 1.8rem;
+    }
+    .problem .box{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 45vh;
+        margin-top: 1rem;
+        align-items: center;
+    }
+    .problem .para
+    {
+        color: rgb(86, 86, 86);
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .problem .box1 span{
+        font-size: 1.2rem;
+        font-weight: 100;
+        color: black;
+    }
+    .problem .ind{
+        display: none;
+    }
+    .problem .box1{
+        width: 80%;
+        padding-left: 0;
+    }
+}

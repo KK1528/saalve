@@ -1,0 +1,115 @@
+.mycard{
+    width: 16rem;
+    height: 24rem;
+    background-color: rgb(255, 255, 255);
+    margin: 0.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5% 5% 0 0;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.mycard:hover{
+    box-shadow: 5px 5px 10px #4a4a4a
+}
+.mycard img{
+    width: 16rem;
+    height: 15rem;
+    overflow: hidden;
+    border-radius: 5% 5% 0 0; 
+}
+.mycard .favorite{
+    color: red;
+    cursor: pointer; 
+}
+.mycard .favorite_border{
+    cursor: pointer;    
+}
+.mycard .card-top{
+    padding: 0 0.4rem;
+    display: grid;
+    gap: 0.3rem;
+    font-size: 0.8rem;
+}
+.mycard h4{
+    font-size: 1rem;
+}
+.mycard .card-top .card-top1{
+    display: flex;
+    justify-content: space-between;
+}
+.mycard .card-top .card-top2{
+    display: flex;
+    justify-content: space-between;   
+}
+.mycard .card-top .card-top3{
+    display: flex;
+    justify-content: space-between;
+}
+.mycard .card-top .card-top4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mycard .span0{
+    position: relative;
+    bottom: 5px;
+    right: 4px;
+}
+.mycard .span1{
+    position: relative;
+    bottom: 5px;
+    left: 4px;
+}
+@media  (max-width:580px) {
+    .mycard{
+        width: 9.6rem;
+        height: 20rem;
+        background-color: rgb(255, 255, 255);
+        margin: 0.5rem;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5% 5% 0 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        transition: box-shadow 0.3s ease-in-out;
+        position: relative;
+    }
+    .mycard img{
+        width: 9.6rem;
+        height: 7rem;
+        overflow: hidden;
+        border-radius: 5% 5% 0 0; 
+    }
+    .mycard .card-top{
+        padding: 0 0.4rem;
+        display: grid;
+        gap: 0.3rem;
+        font-size: 0.69rem;
+    }
+    .mycard .material-icons{
+        font-size: 0.9rem;
+    }
+    .mycard .star .material-icons{
+        position: relative;
+        bottom: 0.3rem;
+    }
+    .mycard .card-top .card-top2{
+        display: grid;
+        gap: 0.4rem;
+
+    }
+    .mycard .card-top .card-top3{
+        display: grid;
+    }
+    .mycard .card-top .card-top4{
+        display: grid;
+    }
+    .mycard .star{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 0.5rem;
+        padding-top: 0.6rem;
+        justify-content: left;
+    }
+}

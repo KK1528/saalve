@@ -1,0 +1,23 @@
+.search{
+    margin: 2rem 1rem;
+}
+.search .search-heading{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+.search label{
+    margin: 1rem;
+}
+.search button{    
+    background-color: var(--main-color);
+    padding: 10px 30px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
+}
+.search button:hover{
+    background-color: rgb(2, 147, 2);
+}

@@ -1,0 +1,30 @@
+.meal{
+    padding: 0 1.5rem;
+    background-color: white;
+}
+.meal-heading{
+    font-weight: 600;
+    padding: 2rem 2rem;
+    display: block;
+    background-color: white;
+}
+.meal-grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
+}
+.meal-grid a{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width:580px){
+    .meal{
+        padding: 0 1rem;
+        background-color: white;
+    }
+    .meal-grid{
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: repeat(auto-fit,minmax(9.1rem,1fr));
+    }
+}

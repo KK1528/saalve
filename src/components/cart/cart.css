@@ -1,0 +1,51 @@
+.food-cart{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+    position: relative;
+}
+.food-cart h1{
+    font-weight: 600;
+    font-size: 1.5rem; 
+    margin-bottom: 10px;   
+}
+.food-cart a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+.food-cart .cart-price{
+    display: flex;
+    justify-content: space-between;
+}
+.food-cart .cart-order{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.food-cart .cart-order .button{
+    background-color: var(--main-color);
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5); 
+}
+.food-cart .cart-order button:hover{
+    background-color: rgb(2, 147, 2);
+}
+.food-cart a{
+    cursor: pointer;
+}
+@media (max-width:800px){
+    .food-cart h3{
+        font-size: 0.9rem;
+    }
+    .food-cart h4{
+        font-size: 0.9rem;
+    }
+    .cart-card img{
+        width: 100px;
+        height: 100px;
+    }
+}

@@ -1,0 +1,30 @@
+.favs{
+    background-color: rgb(247, 247, 247);
+    margin: 1rem;
+    padding: 1rem;
+}
+.favs h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-left: 0.6rem;
+    padding-bottom: 1rem;
+}
+.fav-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem; 
+}
+.fav-card{
+    position: relative;
+}
+.delete-fav{
+    cursor: pointer;
+    position: absolute;
+    padding: 0.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    top: 1rem;
+    right: 2.1rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 50%;
+}

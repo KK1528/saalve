@@ -1,0 +1,7 @@
+.policies{
+    padding: 2rem 40px;
+    background-color: white;
+}
+.policies a{
+    color: var(--main-color);
+}

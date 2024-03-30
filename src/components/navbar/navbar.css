@@ -1,0 +1,236 @@
+
+.nav{
+    display: block;
+    background-color: var(--main-color);
+    position: sticky;
+    width: 100%;
+    height: 3.75rem;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.5);
+    z-index: 100;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 1.4rem;
+    margin-left: 1.5rem;
+}
+.nav-logo{
+    color: #ffffff;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 600;
+    margin: 0.9rem 0 0.8rem 2rem;
+    display: inline-block;
+}
+
+.nav-menu a{
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: var(--main-font-color);
+    font-weight: 500;
+}
+.nav .buttons{
+    padding-top: 0.5rem;
+}
+.nav .buttons a:after {
+    content: '';
+    display: block;
+    margin: 0.5rem auto auto auto;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.nav a:hover:after {
+    width: 100%;
+    background: var(--main-font-color);
+}
+.nav a.active:after {
+    content: '';
+    display: block;
+    margin: 0.5rem auto auto auto;
+    height: 3px;
+    width: 100%;
+    background: var(--main-font-color);
+}
+.nav-toggle{
+    display: none;
+}
+.nav-icons{
+    position: absolute;
+    right: 1.4rem;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.nav-icon{
+    padding-top: 0.5rem;
+    position: relative;
+}
+.nav-icons span{
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: var(--main-font-color);
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-icons .counter{
+    color: var(--main-font-color);
+    background-color: red;
+    width: 5px;
+    height: 5px;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.nav-notifications{
+    width: 15rem;
+    height: 20rem;
+    border-radius: 1rem;
+    background-color: var(--main--color);
+    position: absolute;
+    top: 3.9rem;
+    right: -5rem;
+    z-index: 100;
+    overflow-y: scroll;
+    padding: 1rem;
+    color: var(--main-font-color);
+}
+.nav-notifications ul{
+    display: grid;
+    gap: 0.5rem;
+}
+.invisible{
+    display: none;
+}
+.nav .signin a{
+    padding: 0;
+    margin: 0.5rem;
+    border: none;
+    box-shadow:none; 
+    text-decoration: none;
+    color: var(--main-font-color);
+    position: relative;
+    top: 0.1rem;
+    font-weight: 500;
+    right: 0.5rem;
+    
+}
+@media (width<=800px) {
+    .nav{
+        font-family: 'Montserrat', sans-serif;
+        display: block;
+        background-color: var(--main-color);
+        position: sticky;
+        top: 0;
+        width: 100%;
+        height: 3.75rem;
+    }
+    .nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-toggle{
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: block;
+    }
+    
+    .nav-toggle button{
+        border: none;
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0);
+        color: var(--main-font-color);
+        font-size: 2rem;
+        padding: 0.8rem 1.5rem 0.8rem 0;
+    }
+    .nav-logo{
+        position: absolute;
+        left: 0;
+        top: 0.25rem;
+        font-size: 1.4rem;
+    }
+    .nav-menu a{
+        display: block;
+        text-align: center;
+        padding: 0.4rem 1.5rem;
+        margin: 0 ;
+        text-decoration: none;
+        color: var(--main-font-color);
+    }
+    .nav .buttons{
+        padding-top: 0;
+    }
+    .nav-menu{
+        position: absolute;
+        display: block;
+        top: 3.8rem;
+        float: right;
+        width: 9rem;
+        height: 9rem;
+        margin-right: 0rem;
+        background-color: var(--main-color);
+    }
+    .nav .visible{
+        visibility: hidden;
+    }
+    .nav .buttons:after {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 0;
+        background: transparent;
+        transition: width .5s ease, background-color .5s ease;
+    }
+    .nav .buttons:hover:after {
+        width: 100%;
+        background: var(--main-font-color);
+    }
+    .nav .buttons a:after {
+        display: none;
+    }
+    .nav a.active:after {
+        display: none;
+    }
+    .nav-icons{
+        margin-right: 1.2rem;
+    }
+    .nav .signin a{
+        background-color: transparent;
+        padding: 0;
+        margin: 0.5rem;
+        border: none;
+        box-shadow:none; 
+        text-decoration: none;
+        color: var(--main-font-color);
+        position: relative;
+        top: 0.2rem;
+        right: 0.5rem;        
+    }
+    .invi_small{
+        display: none;
+    }
+  }

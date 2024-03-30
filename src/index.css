@@ -1,0 +1,13 @@
+:root {
+    --main-color: #4DA943;
+    --main-font-color: rgb(250, 250, 250);
+  }
+
+body{
+    margin: 0;
+    background-color: rgb(235, 235, 235);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(40, 40, 40);
+}
+
+
